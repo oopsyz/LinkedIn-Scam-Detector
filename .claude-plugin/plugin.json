@@ -1,0 +1,8 @@
+{
+  "name": "linkedin-scam-detector",
+  "description": "Detect fake recruiter emails and job offer scams. Requires Claude Code and the Claude in Chrome extension. Opens your email in the browser, analyzes the message, verifies the sender domain and email format against company directories, checks the recruiter's LinkedIn profile directly, searches for the job posting on the company's careers page, and finds a verified phone number to call back — with warnings about spoofed caller ID.",
+  "author": {
+    "name": "Zhong Yang",
+    "email": "oopsyang@gmail.com"
+  }
+}
