@@ -62,7 +62,7 @@ Scam tactics evolve constantly — new patterns, new platforms, new tricks. Cont
 - **Real scam examples** — share anonymized examples to help improve detection accuracy
 - **Bug reports** — if the skill breaks on a particular flow, open an issue
 
-To contribute, open a pull request or issue at **https://github.com/oopsyang/linkedin-scam-detector**. Please do not include any real personal information in examples.
+To contribute, open a pull request or issue at **https://github.com/oopsyz/LinkedIn-Scam-Detector**. Please do not include any real personal information in examples.
 
 ## Reporting scams
 
