@@ -56,13 +56,14 @@ This skill cross-references every claim against primary sources — the company'
 Scam tactics evolve constantly — new patterns, new platforms, new tricks. Contributions are welcome!
 
 **Ways to contribute:**
+
 - **New red flags** — spotted a scam pattern not covered? Open a PR adding it to the detection checklist
 - **New email providers** — add support for webmail services beyond Gmail, Outlook, and Yahoo
 - **New verification sources** — know a better directory or job board to cross-reference against?
 - **Real scam examples** — share anonymized examples to help improve detection accuracy
 - **Bug reports** — if the skill breaks on a particular flow, open an issue
 
-To contribute, open a pull request or issue at **https://github.com/oopsyz/LinkedIn-Scam-Detector**. Please do not include any real personal information in examples.
+To contribute, open a pull request or issue at **<https://github.com/oopsyz/LinkedIn-Scam-Detector>**. Please do not include any real personal information in examples.
 
 ## Reporting scams
 
