@@ -1,4 +1,4 @@
-# The "Recruiter" in Your Inbox Might Not Be Human
+# That "Recruiter" in Your Inbox Might Be a Scammer
 
 In 2026, I've stopped trusting recruiter messages at face value. And honestly? You probably should too.
 
@@ -6,14 +6,14 @@ It started innocuously enough—a message from "Sarah Chen, Talent Acquisition M
 
 So I did what I always do: I started digging. LinkedIn profile? New account, barely any activity. Email domain? Not actually microsoft.com, but something close. The job opening? Doesn't exist on their careers page.
 
-This has become the norm. Modern scammers have evolved past broken English and obvious red flags. They now:
+This has become the norm. Modern scammers—whether they're automated systems or strategic impostors—have evolved past broken English and obvious red flags. They now:
 
 - Clone real recruiter profiles down to the pixel
 - Craft official-looking email addresses
 - Reference your actual career history to build credibility
 - Even spoof company phone numbers
 
-Manual vetting used to be a chore. Now it's a security necessity.
+The threat isn't whether you're talking to a human or a bot. The threat is whether you're being scammed. Manual vetting used to be a chore. Now it's a security necessity.
 
 **I built a tool that does this automatically.**
 
