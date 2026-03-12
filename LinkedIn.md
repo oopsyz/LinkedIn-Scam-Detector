@@ -1,56 +1,44 @@
-# LinkedIn Scam Detector
+# The "Recruiter" in Your Inbox Might Not Be Human
 
-## Overview
+In 2026, I've stopped trusting recruiter messages at face value. And honestly? You probably should too.
 
-The **LinkedIn-Scam-Detector** is a Claude skill that automates the verification of recruiter messages and job offers. Modern recruitment scams are sophisticated—they clone legitimate profiles, use official-looking email addresses, and exploit your career history to build false trust. This tool helps identify suspicious communications through automated investigation.
+It started innocuously enough—a message from "Sarah Chen, Talent Acquisition Manager at Microsoft." The profile looked real. The message was personalized. The salary range made me pause. But something felt off.
 
-## How It Works
+So I did what I always do: I started digging. LinkedIn profile? New account, barely any activity. Email domain? Not actually microsoft.com, but something close. The job opening? Doesn't exist on their careers page.
 
-When you ask Claude to verify a recruiter message, the skill performs the following checks:
+This has become the norm. Modern scammers have evolved past broken English and obvious red flags. They now:
 
-1. **Pattern Analysis:** Scans for phishing indicators such as artificial urgency, vague job descriptions, and suspicious attachments.
-2. **Domain Verification:** Cross-references the sender’s email domain against known corporate formats and verifies whether the address format is legitimate.
-3. **LinkedIn Profile Assessment:** Examines the sender’s LinkedIn profile for red flags such as new accounts, low engagement, or inconsistent tenure.
-4. **Job Role Validation:** Checks the company’s official careers page and LinkedIn Jobs to confirm whether the advertised position exists.
-5. **Official Contact Verification:** Retrieves the company’s verified contact information so you can independently confirm the opportunity through official channels.
+- Clone real recruiter profiles down to the pixel
+- Craft official-looking email addresses
+- Reference your actual career history to build credibility
+- Even spoof company phone numbers
 
-## Requirements
+Manual vetting used to be a chore. Now it's a security necessity.
 
-To use the LinkedIn-Scam-Detector skill, you need:
+**I built a tool that does this automatically.**
 
-- **Claude Code (CLI):** For executing the skill logic and managing the investigation workflow
-- **Claude for Chrome Extension:** Enables Claude to navigate your browser, access LinkedIn, email, and company career pages
-- **An active LinkedIn account:** Required to perform profile verification checks
+Rather than spend 30 minutes playing detective every time, I created the **LinkedIn-Scam-Detector**—a Claude skill that runs a comprehensive verification in seconds. Ask it to check a recruiter message, and it:
 
-## Installation
+1. **Analyzes the message** for phishing indicators—artificial urgency, vague descriptions, red-flag language
+2. **Verifies the sender's domain** against known corporate formats
+3. **Inspects their LinkedIn profile** for suspicious patterns (new accounts, low engagement, fake tenure)
+4. **Confirms the job exists** on the company's official careers page and LinkedIn Jobs
+5. **Finds official contact information** so you can verify through legitimate channels
 
-1. Ensure you have Claude Code and the Claude for Chrome extension installed
-2. Clone the repository:
+It's not a silver bullet. No tool is. But it adds friction for scammers who rely on your speed and excitement.
 
-   ```bash
-   git clone https://github.com/yourusername/linkedin-scam-detector.git
-   ```
+**The setup is simple:**
 
-3. Follow the skill installation instructions in the Claude Code documentation
+- You need Claude Code and the Claude for Chrome extension (so Claude can actually see and navigate your browser)
+- You ask Claude: *"Verify this recruiter from Amazon"* or *"Check this job offer"*
+- Claude does the legwork
 
-## Usage
+**You get peace of mind.**
 
-Once installed, you can ask Claude to verify a recruiter message:
+This is an open-source project, and I'm actively looking for feedback and PRs. Scam tactics evolve constantly—if you've seen patterns we're missing, help us catch them.
 
-```text
-"Verify this recruiter from Amazon"
-```
+If this tool helps you avoid one bad interaction, I'd consider it a win. If it helps someone in your network? That's the whole point.
 
-or
+The GitHub link is in the comments. If this resonates, a share or star helps keep our professional community a bit more secure.
 
-```text
-"Check this job offer for legitimacy"
-```
-
-Provide the recruiter’s email, LinkedIn profile URL, or forwarded message, and Claude will run the verification checks automatically.
-
-## Notes
-
-- No tool is a substitute for careful verification. Always independently confirm opportunities through official company channels.
-- This is an open-source project. Contributions and feedback are welcome on GitHub.
-- The skill respects your privacy and only accesses information you explicitly share with it.
+Stay vigilant out there. 🛡️
